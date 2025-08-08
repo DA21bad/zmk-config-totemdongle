@@ -37,7 +37,7 @@
         combo_esc {
             timeout-ms = <50>;
             key-positions = <10 20>;
-            bindings = <&kp ESC>;
+            bindings = <&kp DELETE>;
         };
 
         backspace {
@@ -46,7 +46,7 @@
         };
 
         Delete {
-            bindings = <&kp DEL>;
+            bindings = <&kp ESC>;
             key-positions = <0 1>;
         };
 
@@ -57,7 +57,7 @@
 
         Enter {
             bindings = <&kp ENTER>;
-            key-positions = <18 17>;
+            key-positions = <17 18>;
         };
 
         qwerty {
@@ -73,11 +73,6 @@
         caps {
             bindings = <&kp CAPS>;
             key-positions = <21 22>;
-        };
-
-        win {
-            bindings = <&kp LEFT_WIN>;
-            key-positions = <27 26>;
         };
     };
 
@@ -103,9 +98,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp Q  &kp W  &kp F   &kp P   &kp B        &kp J                    &kp L   &kp U          &kp Y    &kp SEMICOLON
+                &kp Q  &kp W  &kp F   &kp P   &kp B        &kp J                    &kp L   &kp U          &kp Y    &kp LEFT_BRACKET
                 &kp A  &kp R  &kp S   &kp T   &kp G        &kp M                    &kp N   &kp E          &kp I    &kp O
-&kp LEFT_SHIFT  &kp X  &kp C  &kp D   &kp V   &kp Z        &kp K                    &kp H   &kp COMMA      &kp DOT  &kp LEFT_CONTROL  &kp LEFT_BRACKET
+&kp LEFT_SHIFT  &kp X  &kp C  &kp D   &kp V   &kp Z        &kp K                    &kp H   &kp COMMA      &kp DOT  &kp RIGHT_CONTROL  &kp SEMI
                               &tog 3  &tog 1  &kp SPACE    &mt RIGHT_COMMAND SPACE  &tog 2  &kp RIGHT_ALT
             >;
         };
