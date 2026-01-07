@@ -60,11 +60,6 @@
             key-positions = <17 18>;
         };
 
-        qwerty {
-            bindings = <&tog 5>;
-            key-positions = <19 10>;
-        };
-
         gamimg {
             bindings = <&tog 4>;
             key-positions = <7 2>;
