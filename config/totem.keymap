@@ -98,10 +98,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp Q  &kp W  &kp F   &kp P   &kp B        &kp J                    &kp L   &kp U          &kp Y    &kp LEFT_BRACKET
-                &kp A  &kp R  &kp S   &kp T   &kp G        &kp M                    &kp N   &kp E          &kp I    &kp O
-&kp LEFT_SHIFT  &kp X  &kp C  &kp D   &kp V   &kp Z        &kp K                    &kp H   &kp COMMA      &kp DOT  &kp RIGHT_CONTROL  &kp SEMI
-                              &tog 3  &tog 1  &kp SPACE    &mt RIGHT_COMMAND SPACE  &tog 2  &kp RIGHT_ALT
+         &kp Q             &kp W               &kp F           &kp P               &kp B        &kp J      &kp L                &kp U            &kp Y                &kp LEFT_BRACKET
+         &mt LEFT_SHIFT A  &mt LEFT_CONTROL R  &mt LEFT_ALT S  &mt LEFT_COMMAND T  &kp G        &kp M      &mt RIGHT_COMMAND N  &mt RIGHT_ALT E  &mt RIGHT_CONTROL I  &mt RIGHT_SHIFT O
+&kp TAB  &kp X             &kp C               &kp D           &kp V               &kp Z        &kp K      &kp H                &kp COMMA        &kp DOT              &kp RIGHT_CONTROL  &kp SEMI
+                                               &tog 3          &tog 1              &kp SPACE    &kp SPACE  &tog 2               &tog 5
             >;
         };
 
